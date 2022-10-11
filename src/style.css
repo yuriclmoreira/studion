@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@300,400;1,700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Roboto:wght@400;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
 
 @import './css/_variable.css';
 @import './css/_base.css';
 @import './css/_utils.css';
-@import './css/_navbar.css';
+@import "./css/_logo.css";
 @import './css/_btn.css';
 
 @import './css/_navbar.css';
@@ -14,14 +14,3 @@
 
 @import './css/_home.css';
 @import './css/_contact.css';
-
-
-
-
-
-
-
-
-
-
-
