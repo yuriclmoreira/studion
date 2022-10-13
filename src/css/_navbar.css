@@ -35,6 +35,7 @@
 
 .navbar__links a.active {
     color: var(--color-primary);
+    text-decoration: none;
 }
 
 .navbar__links a:hover {

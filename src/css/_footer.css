@@ -30,7 +30,7 @@
     line-height: 1rem;
 }
 
-.footer__form__email {
+.footer__email {
     display: grid;
     grid-template-columns: auto 3.375rem;
 }
@@ -52,6 +52,7 @@
 .footer__form button {
     cursor: pointer;
     transition: 0.3s all ease;
+    height: 3rem;
 }
 
 .footer__form button:hover {
