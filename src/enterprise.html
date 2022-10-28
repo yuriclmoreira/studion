@@ -48,6 +48,9 @@
                     </a>
                 </li>
             </ul>
+            <button class="navbar__menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
         </div>
     </nav>
 
@@ -67,8 +70,8 @@
     </header>
 
     <main>
-        <section class="container about">
-            <section class=" about__text">
+        <section class="container institutional" >
+            <div class="institutional__copy">
                 <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
 
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam, sed diam nonummy nibh euismod
@@ -78,18 +81,14 @@
                     venenatis est a sodales. Mauris sed nisl consequat lectus mollis venenatis. In hac habitasse platea
                     dictumst. Sed iaculis luctus porta. Donec feugiat sollicitudin justo, et scelerisque tellus
                     sollicitudin a. Integer id ligula ut turpis molestie blandit..</p>
-            </section>
-
-            <section class=" about__man">
-                <img src="../src/images/man.png">
-            </section>
-
+            </div>
+            <img class="institutional__image" src="./images/man.png">
         </section>
 
-        <section class="counter">
-            <div class="container counter__info">
+        <section class="marks">
+            <div class="container marks__copy">
                 <h2>Quem confia no nosso trabalho</h2>
-                <img src="../src/images/logos.png">
+                <img class="container" src="./images/logos.png">
 
             </div>
         </section>
@@ -109,7 +108,7 @@
             </h2>
             <form class="footer__form">
                 <label for="email">receba news e promoções</label>
-                <div class="footer__email">
+                <div class="footer__form__email">
                     <input id="email" type="email" placeholder="email">
                     <button class="footer__form-button" type="submit">
                         <i class="fas fa-paper-plane fa-2x"></i>
@@ -140,11 +139,11 @@
             </ul>
 
         </div>
-
         <p>
             <small>Studi<span class="copy--primary">ON</span> - Todos os direitos reservados.</small>
         </p>
     </footer>
+    
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
@@ -152,8 +151,7 @@
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="./script.js"></script>
 
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="./script.js"></script>
+  
 </body>
 
 </html>
