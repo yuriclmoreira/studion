@@ -2,7 +2,7 @@
 
 - <p>a fictitious page that simulates an event manager, provided by Imagine School.</p>
 
-<img src='./src/assets/studion-print.png' alt='Studion PrintScreen' />
+<img src='./src/images/studion-print.png' alt='Studion PrintScreen' />
 
 <br />
 <br />
